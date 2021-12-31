@@ -1,0 +1,48 @@
+.nav {
+    position: fixed;
+    width: 180px;
+    height: auto;
+    z-index: 2;
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background-color: black;
+    }
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: white;
+}
+
+.menu ul {
+    padding: 0 20px;
+}
+
+.menu li {
+    padding: 15px 0px;
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    transition: all ease-in 50ms;
+    color: black;
+}
+
+.menu a:hover {
+    font-weight: bold;
+}
+
+.toggle {
+    background-color: transparent;
+    border: 0;
+    height: fit-content;
+    transition: margin-left 200ms;
+}

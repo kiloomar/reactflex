@@ -1,0 +1,112 @@
+/* Breakpoints */
+
+  /* 
+  xlS: 1201px
+  lgS: 1025px;
+  mdS: 769px;
+  smS: 481px;
+  xsS: 320px;
+
+  lgE: 1200px;
+  mdE: 1024px;
+  smE: 768px;
+  xsE: 480px; 
+  */
+
+/* -- */
+
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+body, html {
+  margin: 0;
+  /* background-color: black; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden
+}
+
+code {
+  font-family: 'Playfair Display', serif;
+}
+
+.d-flex {
+  display: flex
+}
+
+.visible { 
+  opacity: 1;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.transparent { 
+  background-color: transparent !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+@media screen and (min-width: 1201px) {
+  .d-xl-none {
+    display: none !important;
+  }
+  .d-xl-block {
+    display: block !important;
+  }
+  .d-xl-flex {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .d-lg-none {
+    display: none !important;
+  }
+  .d-lg-block {
+    display: block !important;
+  }
+  .d-lg-flex {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .d-md-none {
+    display: none !important;
+  }
+  .d-md-block {
+    display: block !important;
+  }
+  .d-md-flex {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .d-sm-none {
+    display: none !important;
+  }
+  .d-sm-block {
+    display: block !important;
+  }
+  .d-sm-flex {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .d-xs-none {
+    display: none !important;
+  }
+  .d-xs-block {
+    display: block !important;
+  }
+  .d-xs-flex {
+    display: flex !important;
+  }
+}
