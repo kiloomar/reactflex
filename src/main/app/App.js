@@ -5,7 +5,7 @@ import LargeSection from "../../components/largeSection/LargeSection"
 import PhoneSection from "../phoneSection/PhoneSection"
 import StyledButton from "../../components/styledButton/StyledButton"
 import Footer from '../footer/Footer'
-import hero from '../../assets/city1mb.mp4'
+import hero from '../../assets/city30.mp4'
 
 export default function App() {
   return (
